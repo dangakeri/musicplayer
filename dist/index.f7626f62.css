@@ -1,0 +1,57 @@
+.section--nav {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.6rem;
+  display: flex;
+}
+
+.section--nav__search--form {
+  border-radius: 3rem;
+  outline: 0;
+  padding: 1rem;
+}
+
+.section--body {
+  grid-template-columns: 1fr 4fr;
+  display: grid;
+}
+
+.sidenav {
+  background-color: #ecf2ff;
+  height: 80vh;
+  margin-bottom: 3.2rem;
+  padding: 1.6rem 2.4rem;
+  list-style: none;
+}
+
+.sidenav__list {
+  padding-bottom: 2rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.6rem;
+}
+
+*, :before, :after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  text-rendering: optimizelegibility;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #fff;
+  height: 100vh;
+  font-family: poppins;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.6rem;
+  overflow: hidden;
+}
+
+/*# sourceMappingURL=index.f7626f62.css.map */

@@ -1,0 +1,20 @@
+{
+  "name": "musicplayer",
+  "version": "1.0.0",
+  "description": "a music player application",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^9.0.0"
+  },
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "compile:sass": "node-sass sass/main.scss css/style.css"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.10.0",
+    "parcel": "^2.10.0"
+  },
+  "author": "daniel gakeri",
+  "license": "ISC"
+}
