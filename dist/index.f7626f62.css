@@ -19,7 +19,7 @@
 
 .sidenav {
   background-color: #ecf2ff;
-  height: 80vh;
+  height: 60vh;
   margin-bottom: 3.2rem;
   padding: 1.6rem 2.4rem;
   list-style: none;
@@ -30,6 +30,17 @@
   font-size: 1.6rem;
   font-weight: 500;
   line-height: 1.6rem;
+}
+
+.section--player-control {
+  align-items: center;
+  gap: 2rem;
+  display: flex;
+}
+
+.icon {
+  stroke: #000;
+  font-size: 2rem;
 }
 
 *, :before, :after {
